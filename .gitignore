@@ -17,6 +17,7 @@ _mailinglist
 docs/_build/
 venv
 trust.json
+gitHubAccessToken
 __pycache__
 .env_file
 
