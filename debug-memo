@@ -1,0 +1,7 @@
+git remote -v
+git add . --all
+git commit -m “my comment“
+git push
+
+export TOKEN=`curl -d '{"email":"FSND-deploy@gmail.com","password":"<PASSWORD>"}' -H "Content-Type: application/json" -X POST a4a625076190b4becbe61a46eef3ee77-1295824988.us-east-2.elb.amazonaws.com/auth  | jq -r '.token'`
+curl --request GET 'a4a625076190b4becbe61a46eef3ee77-1295824988.us-east-2.elb.amazonaws.com/contents' -H "Authorization: Bearer ${TOKEN}" | jq
