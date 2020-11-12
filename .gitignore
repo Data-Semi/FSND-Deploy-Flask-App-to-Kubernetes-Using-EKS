@@ -18,6 +18,7 @@ docs/_build/
 venv
 trust.json
 gitHubAccessToken
+debug-memo
 __pycache__
 .env_file
 
