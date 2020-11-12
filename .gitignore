@@ -3,8 +3,6 @@
 .flaskenv
 *.pyc
 *.pyo
-env/
-env*
 dist/
 build/
 *.egg
@@ -20,7 +18,7 @@ trust.json
 gitHubAccessToken
 debug-memo
 __pycache__
-.env_file
+
 
 # Coverage reports
 htmlcov/
